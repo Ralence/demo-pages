@@ -5,6 +5,7 @@ import livisi from '../assets/livisi.png';
 import canon from '../assets/canon.png';
 import fortuna from '../assets/fortuna.png';
 import wund from '../assets/wunderlich.png';
+import abiagenten from '../assets/abiagenten.png';
 
 class demo {
     constructor(
@@ -25,6 +26,7 @@ const demos = [
     new demo('Canon', canon, 'https://plugins.gigaaa.com/canon'),
     new demo('Fortuna FC', fortuna, 'https://plugins.gigaaa.com/fortuna'),
     new demo('Wunderlich', wund, 'https://plugins.gigaaa.com/wunderlich'),
+    new demo('Abiagenten', abiagenten, 'https://plugins.gigaaa.com/abiagenten-de')
 ];
 
 export default demos;
