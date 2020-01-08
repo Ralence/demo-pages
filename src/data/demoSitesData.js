@@ -21,7 +21,7 @@ class demo {
 
 const demos = [
     new demo('Düsseldorf', des_city, 'https://plugins.gigaaa.com/duesseldorf-de/'),
-    new demo('Duesseldorf Tourismus', dus_tour, 'https://http://plugins.gigaaa.com/duesseldorf-tourismus/'),
+    new demo('Duesseldorf Tourismus', dus_tour, 'https://plugins.gigaaa.com/duesseldorf-tourismus/'),
     new demo('Livisi', livisi, 'https://plugins.gigaaa.com/livisi'),
     new demo('Canon', canon, 'https://plugins.gigaaa.com/canon'),
     new demo('Fortuna FC', fortuna, 'https://plugins.gigaaa.com/fortuna'),
