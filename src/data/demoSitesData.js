@@ -7,6 +7,7 @@ import fortuna from '../assets/fortuna.png';
 import wund from '../assets/wunderlich.png';
 import abiagenten from '../assets/abiagenten.png';
 import alliance from '../assets/alliance.png';
+import mues from '../assets/mues-tec.png';
 
 class demo {
     constructor(
@@ -28,7 +29,8 @@ const demos = [
     new demo('Fortuna FC', fortuna, 'https://plugins.gigaaa.com/fortuna'),
     new demo('Wunderlich', wund, 'https://plugins.gigaaa.com/wunderlich'),
     new demo('Abiagenten', abiagenten, 'https://plugins.gigaaa.com/abiagenten-de'),
-    new demo('Allianceapi', alliance, 'https://plugins.gigaaa.com/allianceapi')
+    new demo('Allianceapi', alliance, 'https://plugins.gigaaa.com/allianceapi'),
+    new demo('Mues-tec', mues, 'https://plugins.gigaaa.com/mues-tec/'),
 ];
 
 export default demos;
