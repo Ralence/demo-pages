@@ -8,6 +8,7 @@ import wund from '../assets/wunderlich.png';
 import abiagenten from '../assets/abiagenten.png';
 import alliance from '../assets/alliance.png';
 import mues from '../assets/mues-tec.png';
+import arvato from '../assets/arvato.png';
 
 class demo {
     constructor(
@@ -31,6 +32,7 @@ const demos = [
     new demo('Abiagenten', abiagenten, 'https://plugins.gigaaa.com/abiagenten-de'),
     new demo('Allianceapi', alliance, 'https://plugins.gigaaa.com/allianceapi'),
     new demo('Mues-tec', mues, 'https://plugins.gigaaa.com/mues-tec/'),
+    new demo('Arvato', arvato, 'https://plugins.gigaaa.com/arvato/'),
 ];
 
 export default demos;
