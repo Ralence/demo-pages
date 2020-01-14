@@ -9,6 +9,8 @@ import abiagenten from '../assets/abiagenten.png';
 import alliance from '../assets/alliance.png';
 import mues from '../assets/mues-tec.png';
 import arvato from '../assets/arvato.png';
+import cnrexpo from '../assets/cnrexpo.png';
+import ebebek from '../assets/ebebek.png';
 
 class demo {
     constructor(
@@ -33,6 +35,8 @@ const demos = [
     new demo('Allianceapi', alliance, 'https://plugins.gigaaa.com/allianceapi'),
     new demo('Mues-tec', mues, 'https://plugins.gigaaa.com/mues-tec/'),
     new demo('Arvato', arvato, 'https://plugins.gigaaa.com/arvato/'),
+    new demo('CNRexpo', cnrexpo, 'https://plugins.gigaaa.com/cnrexpo/'),
+    new demo('ebebek', ebebek, 'https://plugins.gigaaa.com/ebebek/'),
 ];
 
 export default demos;
