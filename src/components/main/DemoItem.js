@@ -34,6 +34,10 @@ const useStyles = makeStyles({
         padding: '2px',
         background: '#293059',
         color: 'white'
+    },
+    link: {
+        textDecoration: 'none',
+        color: '#293059'
     }
 });
 
@@ -42,25 +46,29 @@ export default function MediaCard({ img, url, title }) {
 
     return (
         <Card elevation={3} className={classes.card}>
+            <a className={classes.link} href={url} target='_blank'>
+                <CardActionArea>
+                    <CardMedia
+                        className={classes.media}
+                        image={img}
+                        title={title}
+                    />
+                    <CardContent className={classes.titleContainer}>
+                        <Typography className={classes.title} variant="h5" component="h2">
+                            {title}
+                        </Typography>
 
-            <CardActionArea onClick={() => window.location.href = url}>
-                <CardMedia
-                    className={classes.media}
-                    image={img}
-                    title={title}
-                />
-                <CardContent className={classes.titleContainer}>
-                    <Typography className={classes.title} variant="h5" component="h2">
-                        {title}
-                    </Typography>
+                    </CardContent>
+                </CardActionArea>
+            </a>
 
-                </CardContent>
-            </CardActionArea>
+
             <CardActions>
-
-                <Button className={classes.btn} size="small" color="primary" onClick={() => window.location.href = url}>
-                    Visit Demo Page
+                <a className={classes.link} href={url} target='_blank'>
+                    <Button className={classes.btn} size="small" color="primary" onClick={() => { }}>
+                        Visit Demo Page
                 </Button>
+                </a>
             </CardActions>
         </Card>
     );
