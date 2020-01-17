@@ -1,4 +1,3 @@
-import logo from '../assets/logo.png';
 import des_city from '../assets/dsd_city.png';
 import dus_tour from '../assets/dsd_tour.png';
 import livisi from '../assets/livisi.png';

@@ -46,7 +46,7 @@ export default function MediaCard({ img, url, title }) {
 
     return (
         <Card elevation={3} className={classes.card}>
-            <a className={classes.link} href={url} target='_blank'>
+            <a className={classes.link} href={url} target='_blank' rel="noopener noreferrer">
                 <CardActionArea>
                     <CardMedia
                         className={classes.media}
@@ -64,7 +64,7 @@ export default function MediaCard({ img, url, title }) {
 
 
             <CardActions>
-                <a className={classes.link} href={url} target='_blank'>
+                <a className={classes.link} href={url} target='_blank' rel="noopener noreferrer">
                     <Button className={classes.btn} size="small" color="primary" onClick={() => { }}>
                         Visit Demo Page
                 </Button>
