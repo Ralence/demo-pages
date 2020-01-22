@@ -31,7 +31,6 @@ const useStyles = makeStyles({
         padding: 0
     },
     btn: {
-        padding: '2px',
         background: '#293059',
         color: 'white'
     },
