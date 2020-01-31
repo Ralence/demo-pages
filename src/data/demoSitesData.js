@@ -14,6 +14,7 @@ import alberto from '../assets/alberto.png';
 import i_do_app from '../assets/i-do.png';
 import klafs from '../assets/klafs.png';
 import migros from '../assets/migros.png';
+import dela from '../assets/dela.png';
 
 class demo {
     constructor(
@@ -44,6 +45,7 @@ const demos = [
     new demo('I-do App',i_do_app, 'https://plugins.gigaaa.com/i-do-app/'),
     new demo('Klafs', klafs, 'https://plugins.gigaaa.com/klafs/'),
     new demo('Migros', migros, 'https://plugins.gigaaa.com/migros/'),
+    new demo('DELA', dela, 'https://plugins.gigaaa.com/dela/'),
 ];
 
 export default demos;
