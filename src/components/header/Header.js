@@ -20,9 +20,9 @@ const useStyles = makeStyles(theme => ({
     alignItems: "felx-start",
     justifyContent: "space-between",
     [theme.breakpoints.up("sm")]: {
-        flexDirection: "row",
-        alignItems: "center",
-        height: "70px"
+      flexDirection: "row",
+      alignItems: "center",
+      height: "70px"
     }
   },
   img: {
@@ -76,29 +76,29 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-export default function ButtonAppBar() {
+export default function ButtonAppBar(props) {
   const classes = useStyles();
+  const { setQuery, query } = props;
 
   return (
     <div className={classes.root}>
       <AppBar elevation={1} className={classes.header} position="static">
         <img className={classes.img} src={logo} alt="gigaaa logo" />
-          {/*<Typography variant="h6" className={classes.title}>
-            Demo pages
-  </Typography>*/}
-          <div className={classes.search} elevation={1}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput
-              }}
-              inputProps={{ "aria-label": "search" }}
-            />
+        <div className={classes.search} elevation={1}>
+          <div className={classes.searchIcon}>
+            <SearchIcon />
           </div>
+          <InputBase
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            placeholder="Search…"
+            classes={{
+              root: classes.inputRoot,
+              input: classes.inputInput
+            }}
+            inputProps={{ "aria-label": "search" }}
+          />
+        </div>
       </AppBar>
     </div>
   );
