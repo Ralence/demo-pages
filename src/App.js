@@ -13,8 +13,8 @@ const AppContainer = styled.div`
 `;
 
 function App() {
-  const [ searchQuery, setSearchQuery ] = useState('');
-  console.log(searchQuery)
+  const [searchQuery, setSearchQuery] = useState("");
+
   return (
     <AppContainer>
       <Header query={searchQuery} setQuery={setSearchQuery} />
