@@ -16,11 +16,13 @@ const Container = styled.div`
 `;
 
 const DemoContainer = props => {
-    const query = props.query;
-    let filteredDemos = demos;
-    if (query) {
-        filteredDemos = demos.filter(item => item.title.toLowerCase().includes(query))
-    }
+  const query = props.query;
+  let filteredDemos = demos;
+  if (query) {
+    filteredDemos = demos.filter(item =>
+      item.title.toLowerCase().includes(query.toLowerCase())
+    );
+  }
   return (
     <Container>
       {filteredDemos.map(item => (
