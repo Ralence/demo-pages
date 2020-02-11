@@ -16,6 +16,7 @@ import klafs from "../assets/klafs.png";
 import migros from "../assets/migros.png";
 import dela from "../assets/dela.png";
 import r2s from "../assets/r2s.png";
+import s1Corp from "../assets/s1Corp.png";
 
 class demo {
   constructor(title, img, url) {
@@ -43,7 +44,8 @@ const demos = [
   new demo("Klafs", klafs, "https://plugins.gigaaa.com/klafs/"),
   new demo("Migros", migros, "https://plugins.gigaaa.com/migros/"),
   new demo("DELA", dela, "https://plugins.gigaaa.com/dela/"),
-  new demo("r2slogistics", r2s, "https://plugins.gigaaa.com/r2slogistics/")
+  new demo("r2slogistics", r2s, "https://plugins.gigaaa.com/r2slogistics/"),
+  new demo("S-1 corporation", s1Corp, "https://plugins.gigaaa.com/S-1_corporation/")
 ];
 
 export default demos;
