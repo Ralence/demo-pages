@@ -19,6 +19,7 @@ import r2s from "../assets/r2s.png";
 import s1Corp from "../assets/s1Corp.png";
 import vodafone_de from "../assets/vodafone_de.png";
 import expocheck from "../assets/expocheck.png";
+import hibboux from "../assets/hibboux.png";
 
 class demo {
   constructor(title, img, url) {
@@ -49,7 +50,8 @@ const demos = [
   new demo("r2slogistics", r2s, "https://plugins.gigaaa.com/r2slogistics/"),
   new demo("S-1 corporation", s1Corp, "https://plugins.gigaaa.com/S-1_corporation/"),
   new demo("Vodafone", vodafone_de, "https://plugins.gigaaa.com/vodafone_de/"),
-  new demo("Expocheck", expocheck, "https://plugins.gigaaa.com/expocheck/")
+  new demo("Expocheck", expocheck, "https://plugins.gigaaa.com/expocheck/"),
+  new demo("Hibboux", hibboux, "https://plugins.gigaaa.com/hibboux/")
 ];
 
 export default demos;
