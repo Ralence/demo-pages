@@ -21,6 +21,7 @@ import vodafone_de from "../assets/vodafone_de.png";
 import expocheck from "../assets/expocheck.png";
 import hibboux from "../assets/hibboux.png";
 import neuhaus from "../assets/neuhaus.png";
+import das_landesportal from "../assets/das_landesportal.png";
 
 class demo {
   constructor(title, img, url) {
@@ -53,7 +54,8 @@ const demos = [
   new demo("Vodafone", vodafone_de, "https://plugins.gigaaa.com/vodafone_de/"),
   new demo("Expocheck", expocheck, "https://plugins.gigaaa.com/expocheck/"),
   new demo("Hibboux", hibboux, "https://plugins.gigaaa.com/hibboux/"),
-  new demo("Paul-Neuhaus", neuhaus, "https://plugins.gigaaa.com/paul-neuhaus/")
+  new demo("Paul-Neuhaus", neuhaus, "https://plugins.gigaaa.com/paul-neuhaus/"),
+  new demo("Das Landesportal", das_landesportal, "https://plugins.gigaaa.com/das_landesportal/")
 ];
 
 export default demos;
