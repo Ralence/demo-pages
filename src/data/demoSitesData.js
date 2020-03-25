@@ -24,6 +24,7 @@ import neuhaus from "../assets/neuhaus.png";
 import das_landesportal from "../assets/das_landesportal.png";
 import bundesministerium from "../assets/bundesministerium.png";
 import dusseldorf_corona from "../assets/dusseldorf_corona.png";
+import hepster from "../assets/hepster.png";
 
 class demo {
   constructor(title, img, url) {
@@ -59,7 +60,8 @@ const demos = [
   new demo("Paul-Neuhaus", neuhaus, "https://plugins.gigaaa.com/paul-neuhaus/"),
   new demo("Das Landesportal", das_landesportal, "https://plugins.gigaaa.com/das_landesportal/"),
   new demo("Bundesministerium", bundesministerium, "https://plugins.gigaaa.com/bundesministerium/"),
-  new demo("Dusseldorf Corona", dusseldorf_corona, "https://plugins.gigaaa.com/duseldorf_corona/")
+  new demo("Dusseldorf Corona", dusseldorf_corona, "https://plugins.gigaaa.com/duseldorf_corona/"),
+  new demo("Hepster", hepster, "https://plugins.gigaaa.com/hepster")
 ];
 
 export default demos;
