@@ -26,6 +26,7 @@ import bundesministerium from "../assets/bundesministerium.png";
 import dusseldorf_corona from "../assets/dusseldorf_corona.png";
 import hepster from "../assets/hepster.png";
 import fitvando from "../assets/fitvando.png";
+import padelbox from "../assets/padelbox.png";
 
 class demo {
   constructor(title, img, url) {
@@ -64,6 +65,7 @@ const demos = [
   new demo("Dusseldorf Corona", dusseldorf_corona, "https://plugins.gigaaa.com/duseldorf_corona/"),
   new demo("Hepster", hepster, "https://plugins.gigaaa.com/hepster"),
   new demo("Fitvando", fitvando, "https://plugins.gigaaa.com/fitvando/"),
+  new demo("PadelBox", padelbox, "https://plugins.gigaaa.com/padelbox/"),
 ];
 
 export default demos;
