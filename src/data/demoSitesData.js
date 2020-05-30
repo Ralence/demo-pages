@@ -27,6 +27,8 @@ import dusseldorf_corona from "../assets/dusseldorf_corona.png";
 import hepster from "../assets/hepster.png";
 import fitvando from "../assets/fitvando.png";
 import padelbox from "../assets/padelbox.png";
+import jumia from "../assets/jumia.png";
+import gigaaa from "../assets/gigaaaScriptDemo.png";
 
 class demo {
   constructor(title, img, url) {
@@ -37,6 +39,7 @@ class demo {
 }
 
 const demos = [
+  new demo("gigaaa Demo", gigaaa, "https://plugins.gigaaa.com/scripts/"),
   new demo("Düsseldorf", des_city, "https://plugins.gigaaa.com/duesseldorf-de/"),
   new demo("Duesseldorf Tourismus", dus_tour, "https://plugins.gigaaa.com/duesseldorf-tourismus/"),
   new demo("Livisi", livisi, "https://plugins.gigaaa.com/livisi"),
@@ -66,6 +69,7 @@ const demos = [
   new demo("Hepster", hepster, "https://plugins.gigaaa.com/hepster"),
   new demo("Fitvando", fitvando, "https://plugins.gigaaa.com/fitvando/"),
   new demo("PadelBox", padelbox, "https://plugins.gigaaa.com/padelbox/"),
+  new demo("Jumia", jumia, "https://plugins.gigaaa.com/jumia/"),
 ];
 
 export default demos;
