@@ -13,37 +13,38 @@ const useStyles = makeStyles({
     fontFamily: "roboto",
     color: "#293059",
     width: 270,
-    height: 380,
+    height: "fit-content",
+    minHeight: 380,
     margin: 10,
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
   },
   media: {
     height: 270,
     border: "none",
-    borderBottom: "1px solid #cccccc75"
+    borderBottom: "1px solid #cccccc75",
   },
   titleContainer: {
     margin: 0,
     marginLeft: 5,
-    padding: 0
+    padding: 0,
   },
   title: {
     margin: 5,
-    padding: 0
+    padding: 0,
   },
   cardActions: {
     marginBottom: "5px",
-    marginTop: "auto"
+    marginTop: "auto",
   },
   btn: {
     background: "#293059",
-    color: "white"
+    color: "white",
   },
   link: {
     textDecoration: "none",
-    color: "#293059"
-  }
+    color: "#293059",
+  },
 });
 
 export default function MediaCard({ img, url, title }) {
