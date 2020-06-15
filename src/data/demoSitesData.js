@@ -30,6 +30,7 @@ import padelbox from "../assets/padelbox.png";
 import jumia from "../assets/jumia.png";
 import gigaaa from "../assets/gigaaaScriptDemo.png";
 import american_uni_cairo from "../assets/american_uni_cairo.png";
+import egypt_ministry_of_communications from "../assets/egypt_ministry_of_communications.png";
 
 class demo {
   constructor(title, img, url) {
@@ -75,6 +76,11 @@ const demos = [
     "American University Cairo",
     american_uni_cairo,
     "https://plugins.gigaaa.com/american_uni_cairo/"
+  ),
+  new demo(
+    "Egypt Ministry of Communications",
+    egypt_ministry_of_communications,
+    "https://plugins.gigaaa.com/Egypt_Ministry_of_Communications/"
   ),
 ];
 
