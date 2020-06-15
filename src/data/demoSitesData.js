@@ -29,6 +29,7 @@ import fitvando from "../assets/fitvando.png";
 import padelbox from "../assets/padelbox.png";
 import jumia from "../assets/jumia.png";
 import gigaaa from "../assets/gigaaaScriptDemo.png";
+import american_uni_cairo from "../assets/american_uni_cairo.png";
 
 class demo {
   constructor(title, img, url) {
@@ -70,6 +71,11 @@ const demos = [
   new demo("Fitvando", fitvando, "https://plugins.gigaaa.com/fitvando/"),
   new demo("PadelBox", padelbox, "https://plugins.gigaaa.com/padelbox/"),
   new demo("Jumia", jumia, "https://plugins.gigaaa.com/jumia/"),
+  new demo(
+    "American University Cairo",
+    american_uni_cairo,
+    "https://plugins.gigaaa.com/american_uni_cairo/"
+  ),
 ];
 
 export default demos;
