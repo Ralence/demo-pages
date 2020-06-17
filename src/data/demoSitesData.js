@@ -31,6 +31,7 @@ import jumia from "../assets/jumia.png";
 import gigaaa from "../assets/gigaaaScriptDemo.png";
 import american_uni_cairo from "../assets/american_uni_cairo.png";
 import egypt_ministry_of_communications from "../assets/egypt_ministry_of_communications.png";
+import maltepe from "../assets/maltepe.png";
 
 class demo {
   constructor(title, img, url) {
@@ -42,6 +43,7 @@ class demo {
 
 const demos = [
   new demo("gigaaa Demo", gigaaa, "https://plugins.gigaaa.com/scripts/"),
+  new demo("Maltepe", maltepe, "https://plugins.gigaaa.com/maltepe/"),
   new demo("Düsseldorf", des_city, "https://plugins.gigaaa.com/duesseldorf-de/"),
   new demo("Duesseldorf Tourismus", dus_tour, "https://plugins.gigaaa.com/duesseldorf-tourismus/"),
   new demo("Livisi", livisi, "https://plugins.gigaaa.com/livisi"),
